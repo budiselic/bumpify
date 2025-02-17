@@ -38,9 +38,10 @@ try {
   execSync('git add package.json public/version.json', { stdio: 'inherit' });
   execSync(`git commit -m "Bump version to ${version}"`, { stdio: 'inherit' });
   execSync(`git tag v${version}`, { stdio: 'inherit' });
-  execSync('git push && git push --tags', { stdio: 'inherit' });
+  // execSync('git push && git push --tags', { stdio: 'inherit' });
 
-  console.log('🚀 Version updated, committed, and pushed!');
+  // console.log('🚀 Version updated, committed, and pushed!');
+  console.log('🚀 Version updated and committed!');
 } catch (error) {
   console.error('❌ Error updating version:', error);
 }

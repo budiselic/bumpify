@@ -1,0 +1,22 @@
+# Ignore node_modules (dependencies)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore environment variables (security reasons)
+.env
+.env.local
+.env.*.local
+
+# Ignore system & editor-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore JetBrains/WebStorm IDE files
+.idea/
+*.iml
+out/
