@@ -10,7 +10,7 @@ const packageJsonPath = path.join(projectRoot, 'package.json');
 const versionJsonPath = path.join(projectRoot, 'public', 'version.json');
 
 // Get command-line arguments (patch, minor, major)
-const versionType = process.argv[2];
+const versionType = process.argv[3];
 
 if (!['patch', 'minor', 'major'].includes(versionType)) {
   console.error('❌ Please use: patch, minor, or major');
