@@ -1,6 +1,6 @@
 {
   "name": "bumpify-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom npm version command with version.json in public folder and Git commit/tag",
   "author": "Antonio Budiselić",
   "repository": {
