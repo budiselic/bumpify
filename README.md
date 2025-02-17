@@ -97,7 +97,7 @@ We welcome contributions! To contribute:
 
 ## 🌟 **Support & Feedback**
 If you found `bumpify-cli` helpful, please **star this repo** ⭐ on GitHub and share your feedback!  
-For issues or feature requests, open an [issue here](https://github.com/your-username/bumpify/issues).
+For issues or feature requests, open an [issue here](https://github.com/budiselic/bumpify-cli/issues).
 
 ---
 
